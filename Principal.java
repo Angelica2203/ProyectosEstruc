@@ -7,6 +7,7 @@ public class Principal
         int [][] m = Mt.LlenarMatriz(d);
         Mt.MostrarMatriz(m);
         Mt.MostrarMatrizImpares(m);
+        Mt.MostrarMatrizPares(m);
     }
     
 }
