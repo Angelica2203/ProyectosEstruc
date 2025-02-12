@@ -23,4 +23,33 @@ public class Metodos
         }
         return m;
     }
+    public void MostrarMatriz( int [][] m )
+    {
+        for (int i = 0; i < m.length; i++)
+        {
+            for (int j = 0; j < m.length; j++)
+            {
+                System.out.print(" - " + m[i][j]);
+
+            }
+            System.out.println();
+        }
+        
+    }
+    public void MostrarMatrizImpares( int [][] m )
+    {
+        for (int i = 0; i < m.length; i++)
+        {
+            for (int j = 0; j < m.length; j++)
+            {
+                if( m[i][j] %2 != 0)
+                {
+                System.out.print(" - " + m[i][j]);
+                }
+
+            }
+            System.out.println();
+        }
+        
+    }
 }
