@@ -30,10 +30,49 @@ public class Metodos
             for (int j = 0; j < m.length; j++)
             {
                 System.out.print(" - " + m[i][j]);
+<<<<<<< HEAD
+=======
+            }
+            System.out.println();
+        }
+    }
+    public void MostrarMatrizImpares( int [][] m )
+    {
+        System.out.println("Lo valores impares de la matriz son: ");
+        for (int i = 0; i < m.length; i++)
+        {
+            for (int j = 0; j < m.length; j++)
+            {
+                if( m[i][j] %2 != 0)
+                {
+
+                    System.out.print(" - " + m[i][j]);
+                }
 
             }
             System.out.println();
         }
+    }
+    public void MostrarMatrizPares( int [][] m )
+    {
+        System.out.println("Lo valores pares de la matriz son: ");
+        for (int i = 0; i < m.length; i++)
+        {
+            for (int j = 0; j < m.length; j++)
+            {
+                if( m[i][j] %2 == 0)
+                {
+
+                    System.out.print(" - " + m[i][j]);
+                }
+>>>>>>> Develop
+
+            }
+            System.out.println();
+        }
+<<<<<<< HEAD
         
+=======
+>>>>>>> Develop
     }
 }
